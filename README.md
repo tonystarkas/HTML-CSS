@@ -1,4 +1,5 @@
-# HTML-CSS
+# HTML-CSS Laboratorinis darbas
 School work
-qwerty
-adfasfasda
+Daumantas Margelis
+Rimantas Kripas
+ITF18-2
