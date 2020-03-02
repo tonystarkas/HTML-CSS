@@ -1,32 +1,71 @@
 body
 {
-    background-image: url(img/back.png);
+    background-image: url(pav/background.png);
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
     color: white;
-    font-family: 'Open sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif
+    font-style:bold;
+    font-weight:500;
 }
 
 
 /* navbar */
+.navbar-nav{
+	margin-left:30px;
+	margin-top:20px;
+}
+.nav-item{
+	margin-right:30px;
+}
 .nav-link{
   color: white;
 }
-.nav-link: active{
-  text-decoration: underline;
+.nav-link:hover{
+	color:white;
+}
+.nav-item:hover{
+	border-bottom: 4px solid white;
+}
+.navbar-brand{
+	margin-top:20px;
+	margin-left:130px;
 }
 
 /* main  */
 h1{
-  font-size: 5.5em;
-  padding-top: 3em;
+  font-size: 4em;
+  padding-top: 1em;
 }
 
 p{
+	font-size:15px;
   padding: 0.75em;
 }
 
 .btn{
-  margin: 2em;
+  margin-top: 40px;
+  padding: 15px;
+  border-radius:10px;
+}
+#sign-up:hover{
+	padding: 10px 25px;
+    background-color: black;
+    color:black;
+    border-radius:10px;
+}
+
+#knopkes{
+	margin-left:130px;
+
+}
+.dot{
+  height: 25px;
+  width: 25px;
+  background-color: #3385ff;
+  border-radius: 50%;
+  display: inline-block;
+  border:5px solid black;
+  border-color:orange;
 }
