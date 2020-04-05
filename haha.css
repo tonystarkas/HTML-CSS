@@ -268,7 +268,7 @@ button:nth-child(20){
 
 
 @media (max-width: 1500px) {
-    .nav.navbar-nav.ml-auto li.active a {
+    .navbar li.active a {
         display: inline-block;
         padding: 0.8em 3em;
         border-radius: 0.5em;
@@ -282,13 +282,13 @@ button:nth-child(20){
         transition: all 0.2s;
         font-weight: 900;
     }
-    .nav.navbar-nav.ml-auto li.active a:hover {
+    .navbar li.active a:hover {
         background-color: rgb(236, 165, 77);
         transition: ease in 0.5ms;
         color: white;
         font-weight: 900;
     }
-    .nav.navbar-nav.ml-auto li a {
+    .navbar li a {
         color: white;
         text-decoration: none;
         font-family: 'Raleway', sans-serif;
@@ -299,7 +299,7 @@ button:nth-child(20){
 }
 
 @media (max-width: 992px) {
-    .nav.navbar-nav.ml-auto li.active a {
+    .navbar li.active a {
         display: inline-block;
         padding: 0.8em 3em;
         border-radius: 0.5em;
@@ -313,13 +313,13 @@ button:nth-child(20){
         transition: all 0.2s;
         font-weight: 900;
     }
-    .nav.navbar-nav.ml-auto li.active a:hover {
+    .navbar li.active a:hover {
         background-color: rgb(236, 165, 77);
         transition: ease in 0.5ms;
         color: white;
         font-weight: 900;
     }
-    .nav.navbar-nav.ml-auto li a {
+    .navbar li a {
         color: white;
         text-decoration: none;
         font-family: 'Raleway', sans-serif;
@@ -328,7 +328,7 @@ button:nth-child(20){
         margin-top: 0.3em;
     }
     @media (max-width: 768px) {
-        .nav.navbar-nav.ml-auto li.active a {
+        .navbar li.active a {
             display: inline-block;
             padding: 0.8em 3em;
             border-radius: 0.5em;
@@ -342,13 +342,13 @@ button:nth-child(20){
             transition: all 0.2s;
             font-weight: 900;
         }
-        .nav.navbar-nav.ml-auto li.active a:hover {
+        .navbar li.active a:hover {
             background-color: rgb(236, 165, 77);
             transition: ease in 0.5ms;
             color: white;
             font-weight: 900;
         }
-        .nav.navbar-nav.ml-auto li a {
+        .navbar li a {
             color: white;
             text-decoration: none;
             font-family: 'Raleway', sans-serif;
@@ -358,7 +358,7 @@ button:nth-child(20){
         }
     }
     @media (max-width: 576px) {
-        .nav.navbar-nav.ml-auto li.active a {
+        .navbar li.active a {
             display: inline-block;
             padding: 0.8em 3em;
             border-radius: 0.5em;
@@ -372,13 +372,13 @@ button:nth-child(20){
             transition: all 0.2s;
             font-weight: 900;
         }
-        .nav.navbar-nav.ml-auto li.active a:hover {
+        .navbar li.active a:hover {
             background-color: rgb(236, 165, 77);
             transition: ease in 0.5ms;
             color: white;
             font-weight: 900;
         }
-        .nav.navbar-nav.ml-auto li a {
+        .navbar li a {
             color: white;
             text-decoration: none;
             font-family: 'Raleway', sans-serif;
@@ -388,14 +388,14 @@ button:nth-child(20){
         }
     }
     @media all and (max-width:768px) {
-        .nav.navbar-nav.ml-auto li.active a {
+        .navbar li.active a {
             margin: 0.1em auto;
         }
-        .nav.navbar-nav.nav-left li.active a {
+        .navbar li.active a {
             margin: 0.1em auto;
             border-bottom: auto;
         }
-        .nav.navbar-nav.nav-left li a {
+        .navbar li a {
             margin: 0.1em auto;
         }
     }
