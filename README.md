@@ -1,6 +1,3 @@
 # HTML-CSS Laboratorinis darbas
-School work
-Daumantas Margelis
-Rimantas Kripas
-ITF18-2
-Photos folderi reikia pervadinti i pav norint kad failai atidarytu juose esancias nuotraukas
+## School work
+### First attempt at completing front end for our website. "Photos" folder needs to be renamed to "pav" in order for the files to open up images.
